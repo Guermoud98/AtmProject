@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?PowerDesigner AppLocale="UTF16" ID="{AF1C33F8-3985-4AE7-95F3-083141D21AEB}" Label="" LastModificationDate="1696774175" Name="ModeleOrienteObjet_2" Objects="41" Symbols="13" Target="Java" TargetLink="Reference" Type="{18112060-1A4B-11D1-83D9-444553540000}" signature="CLD_OBJECT_MODEL" version="15.1.0.2850"?>
+<?PowerDesigner AppLocale="UTF16" ID="{AF1C33F8-3985-4AE7-95F3-083141D21AEB}" Label="" LastModificationDate="1697053477" Name="ModeleOrienteObjet_2" Objects="36" Symbols="9" Target="Java" TargetLink="Reference" Type="{18112060-1A4B-11D1-83D9-444553540000}" signature="CLD_OBJECT_MODEL" version="15.1.0.2850"?>
 <!-- Veuillez ne pas modifier ce fichier -->
 
 <Model xmlns:a="attribute" xmlns:c="collection" xmlns:o="object">
@@ -2538,9 +2538,9 @@ MULA 0 Arial,8,N</a:FontList>
 </o:AssociationSymbol>
 <o:GeneralizationSymbol Id="o10">
 <a:CreationDate>1696540900</a:CreationDate>
-<a:ModificationDate>1696772220</a:ModificationDate>
-<a:Rect>((10214,-9300), (11214,-1284))</a:Rect>
-<a:ListOfPoints>((10500,-9300),(10500,-6225),(10927,-6225),(10927,-1284))</a:ListOfPoints>
+<a:ModificationDate>1697053466</a:ModificationDate>
+<a:Rect>((16852,-9825), (18138,-1284))</a:Rect>
+<a:ListOfPoints>((18138,-9825),(18138,-6638),(16852,-6638),(16852,-1284))</a:ListOfPoints>
 <a:CornerStyle>2</a:CornerStyle>
 <a:ArrowStyle>7</a:ArrowStyle>
 <a:LineColor>4194432</a:LineColor>
@@ -2558,9 +2558,9 @@ MULA 0 Arial,8,N</a:FontList>
 </o:GeneralizationSymbol>
 <o:GeneralizationSymbol Id="o13">
 <a:CreationDate>1696540901</a:CreationDate>
-<a:ModificationDate>1696772220</a:ModificationDate>
-<a:Rect>((-2850,-8850), (1082,-2780))</a:Rect>
-<a:ListOfPoints>((-2850,-8850),(-2850,-6374),(1082,-6374),(1082,-2780))</a:ListOfPoints>
+<a:ModificationDate>1697053477</a:ModificationDate>
+<a:Rect>((1082,-9751), (2197,-2780))</a:Rect>
+<a:ListOfPoints>((2197,-9751),(2197,-6749),(1082,-6749),(1082,-2780))</a:ListOfPoints>
 <a:CornerStyle>2</a:CornerStyle>
 <a:ArrowStyle>7</a:ArrowStyle>
 <a:LineColor>4194432</a:LineColor>
@@ -2579,8 +2579,8 @@ MULA 0 Arial,8,N</a:FontList>
 <o:AssociationSymbol Id="o16">
 <a:CreationDate>1696768043</a:CreationDate>
 <a:ModificationDate>1696772220</a:ModificationDate>
-<a:Rect>((23419,6307), (37650,8655))</a:Rect>
-<a:ListOfPoints>((23419,7481),(37650,7481))</a:ListOfPoints>
+<a:Rect>((23419,6307), (36215,8655))</a:Rect>
+<a:ListOfPoints>((23419,7481),(36215,7481))</a:ListOfPoints>
 <a:CornerStyle>2</a:CornerStyle>
 <a:ArrowStyle>8</a:ArrowStyle>
 <a:LineColor>4194432</a:LineColor>
@@ -2649,9 +2649,9 @@ LABL 0 Arial,8,N</a:FontList>
 </o:ClassSymbol>
 <o:ClassSymbol Id="o14">
 <a:CreationDate>1696540610</a:CreationDate>
-<a:ModificationDate>1696540839</a:ModificationDate>
+<a:ModificationDate>1697053460</a:ModificationDate>
 <a:IconMode>-1</a:IconMode>
-<a:Rect>((-5361,-12636), (1162,-8814))</a:Rect>
+<a:Rect>((-1616,-12935), (7317,-9115))</a:Rect>
 <a:LineColor>128</a:LineColor>
 <a:FillColor>8637161</a:FillColor>
 <a:ShadowColor>12632256</a:ShadowColor>
@@ -2672,9 +2672,9 @@ LABL 0 Arial,8,N</a:FontList>
 </o:ClassSymbol>
 <o:ClassSymbol Id="o11">
 <a:CreationDate>1696540611</a:CreationDate>
-<a:ModificationDate>1696540906</a:ModificationDate>
+<a:ModificationDate>1697053458</a:ModificationDate>
 <a:IconMode>-1</a:IconMode>
-<a:Rect>((8102,-12786), (13800,-8965))</a:Rect>
+<a:Rect>((13801,-13161), (22501,-9340))</a:Rect>
 <a:LineColor>128</a:LineColor>
 <a:FillColor>8637161</a:FillColor>
 <a:ShadowColor>12632256</a:ShadowColor>
@@ -2697,7 +2697,7 @@ LABL 0 Arial,8,N</a:FontList>
 <a:CreationDate>1696768037</a:CreationDate>
 <a:ModificationDate>1696768053</a:ModificationDate>
 <a:IconMode>-1</a:IconMode>
-<a:Rect>((37350,4614), (42149,8435))</a:Rect>
+<a:Rect>((35710,4614), (43792,8435))</a:Rect>
 <a:LineColor>128</a:LineColor>
 <a:FillColor>8637161</a:FillColor>
 <a:ShadowColor>12632256</a:ShadowColor>
@@ -2968,9 +2968,22 @@ LABL 0 Arial,8,N</a:FontList>
 <a:Code>CheckingAccount</a:Code>
 <a:CreationDate>1696540610</a:CreationDate>
 <a:Creator>Administrateur</a:Creator>
-<a:ModificationDate>1696540633</a:ModificationDate>
+<a:ModificationDate>1697053430</a:ModificationDate>
 <a:Modifier>Administrateur</a:Modifier>
 <a:UseParentNamespace>0</a:UseParentNamespace>
+<c:Attributes>
+<o:Attribute Id="o42">
+<a:ObjectID>48327623-6DEF-428C-B1D2-60006001E1C0</a:ObjectID>
+<a:Name>overdraftFee</a:Name>
+<a:Code>overdraftFee</a:Code>
+<a:CreationDate>1697053406</a:CreationDate>
+<a:Creator>Administrateur</a:Creator>
+<a:ModificationDate>1697053430</a:ModificationDate>
+<a:Modifier>Administrateur</a:Modifier>
+<a:DataType>float</a:DataType>
+<a:Attribute.Visibility>-</a:Attribute.Visibility>
+</o:Attribute>
+</c:Attributes>
 </o:Class>
 <o:Class Id="o22">
 <a:ObjectID>8528F21F-E763-4D5C-8FF4-CA4B37BDAA40</a:ObjectID>
@@ -2978,9 +2991,22 @@ LABL 0 Arial,8,N</a:FontList>
 <a:Code>SavingAccount</a:Code>
 <a:CreationDate>1696540611</a:CreationDate>
 <a:Creator>Administrateur</a:Creator>
-<a:ModificationDate>1696540628</a:ModificationDate>
+<a:ModificationDate>1697053405</a:ModificationDate>
 <a:Modifier>Administrateur</a:Modifier>
 <a:UseParentNamespace>0</a:UseParentNamespace>
+<c:Attributes>
+<o:Attribute Id="o43">
+<a:ObjectID>491C7EC5-4F52-4F64-B229-2A144724BE66</a:ObjectID>
+<a:Name>interestRate</a:Name>
+<a:Code>interestRate</a:Code>
+<a:CreationDate>1697053342</a:CreationDate>
+<a:Creator>Administrateur</a:Creator>
+<a:ModificationDate>1697053405</a:ModificationDate>
+<a:Modifier>Administrateur</a:Modifier>
+<a:DataType>float</a:DataType>
+<a:Attribute.Visibility>-</a:Attribute.Visibility>
+</o:Attribute>
+</c:Attributes>
 </o:Class>
 <o:Class Id="o23">
 <a:ObjectID>C82020B2-EF82-4939-A9AB-31AEF713E259</a:ObjectID>
@@ -2988,9 +3014,22 @@ LABL 0 Arial,8,N</a:FontList>
 <a:Code>BankCard</a:Code>
 <a:CreationDate>1696768037</a:CreationDate>
 <a:Creator>Administrateur</a:Creator>
-<a:ModificationDate>1696774175</a:ModificationDate>
+<a:ModificationDate>1697053340</a:ModificationDate>
 <a:Modifier>Administrateur</a:Modifier>
 <a:UseParentNamespace>0</a:UseParentNamespace>
+<c:Attributes>
+<o:Attribute Id="o44">
+<a:ObjectID>8AE39354-5C6B-49AB-AE47-680C63BCB1C6</a:ObjectID>
+<a:Name>cardNumber</a:Name>
+<a:Code>cardNumber</a:Code>
+<a:CreationDate>1697053268</a:CreationDate>
+<a:Creator>Administrateur</a:Creator>
+<a:ModificationDate>1697053340</a:ModificationDate>
+<a:Modifier>Administrateur</a:Modifier>
+<a:DataType>int</a:DataType>
+<a:Attribute.Visibility>-</a:Attribute.Visibility>
+</o:Attribute>
+</c:Attributes>
 </o:Class>
 </c:Classes>
 <c:Associations>
@@ -3074,7 +3113,7 @@ LABL 0 Arial,8,N</a:FontList>
 </o:Generalization>
 </c:Generalizations>
 <c:TargetModels>
-<o:TargetModel Id="o42">
+<o:TargetModel Id="o45">
 <a:ObjectID>EAB655DF-6341-4321-AEEA-792F130F7653</a:ObjectID>
 <a:Name>Java</a:Name>
 <a:Code>Java</a:Code>
@@ -3089,7 +3128,7 @@ LABL 0 Arial,8,N</a:FontList>
 <o:Shortcut Ref="o3"/>
 </c:SessionShortcuts>
 </o:TargetModel>
-<o:TargetModel Id="o43">
+<o:TargetModel Id="o46">
 <a:ObjectID>ED3D288F-203D-49F2-BA48-827E3AEDFD06</a:ObjectID>
 <a:Name>WSDL for Java</a:Name>
 <a:Code>WSDLJava</a:Code>

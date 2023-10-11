@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?PowerDesigner AppLocale="UTF16" ID="{AF1C33F8-3985-4AE7-95F3-083141D21AEB}" Label="" LastModificationDate="1696540906" Name="ModeleOrienteObjet_2" Objects="36" Symbols="10" Target="Java" TargetLink="Reference" Type="{18112060-1A4B-11D1-83D9-444553540000}" signature="CLD_OBJECT_MODEL" version="15.1.0.2850"?>
+<?PowerDesigner AppLocale="UTF16" ID="{AF1C33F8-3985-4AE7-95F3-083141D21AEB}" Label="" LastModificationDate="1697053477" Name="ModeleOrienteObjet_2" Objects="36" Symbols="9" Target="Java" TargetLink="Reference" Type="{18112060-1A4B-11D1-83D9-444553540000}" signature="CLD_OBJECT_MODEL" version="15.1.0.2850"?>
 <!-- Veuillez ne pas modifier ce fichier -->
 
 <Model xmlns:a="attribute" xmlns:c="collection" xmlns:o="object">
@@ -12,7 +12,7 @@
 <a:Code>ModeleOrienteObjet_2</a:Code>
 <a:CreationDate>1696538230</a:CreationDate>
 <a:Creator>Administrateur</a:Creator>
-<a:ModificationDate>1696540901</a:ModificationDate>
+<a:ModificationDate>1696771685</a:ModificationDate>
 <a:Modifier>Administrateur</a:Modifier>
 <a:PackageOptionsText>[FolderOptions]
 
@@ -21,8 +21,1129 @@ GenerationCheckModel=Yes
 GenerationPath=C:\Users\Administrateur\Desktop\Gestion-De-Stock-Project\
 GenerationOptions=
 GenerationTasks=
-GenerationTargets=
-GenerationSelections=</a:PackageOptionsText>
+GenerationTargets=WSDLJava[LF]T
+GenerationSelections=
+
+[FolderOptions\CheckModel]
+
+[FolderOptions\CheckModel\Package]
+
+[FolderOptions\CheckModel\Package\Circular inheritance]
+CheckSeverity=No
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Package\Circular dependency]
+CheckSeverity=No
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Package\ShortcutUniqCode]
+CheckSeverity=Yes
+FixRequested=No
+CheckRequested=No
+
+[FolderOptions\CheckModel\Package\ChildShortcut]
+CheckSeverity=Yes
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Classe]
+
+[FolderOptions\CheckModel\Classe\UniqueNom]
+CheckSeverity=No
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Classe\UniqueCode]
+CheckSeverity=No
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Classe\Empty classifier]
+CheckSeverity=Yes
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Classe\Persistent class]
+CheckSeverity=Yes
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Classe\Association Identifier]
+CheckSeverity=Yes
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Classe\Visibility]
+CheckSeverity=Yes
+FixRequested=Yes
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Classe\Constructor return type]
+CheckSeverity=No
+FixRequested=Yes
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Classe\Constructor modifier]
+CheckSeverity=No
+FixRequested=Yes
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Classe\Method implementation]
+CheckSeverity=Yes
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Classe\Role name assignment]
+CheckSeverity=Yes
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Classe\Role name unicity]
+CheckSeverity=No
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Classe\BeanInfo]
+CheckSeverity=Yes
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Classe\JavaBean]
+CheckSeverity=No
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Classe\Inheritance on Enum Type (Java)]
+CheckSeverity=No
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Classe\BeanClassDefinition]
+CheckSeverity=No
+FixRequested=Yes
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Classe\BeanClassBusinessImpl]
+CheckSeverity=No
+FixRequested=Yes
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Classe\BeanClassHomeImpl]
+CheckSeverity=No
+FixRequested=Yes
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Classe\BeanClassEjbCreate]
+CheckSeverity=No
+FixRequested=Yes
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Classe\BeanClassEjbPostCreate]
+CheckSeverity=No
+FixRequested=Yes
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Classe\BeanClassEjbFind]
+CheckSeverity=No
+FixRequested=Yes
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Classe\BeanClassEjbHome]
+CheckSeverity=No
+FixRequested=Yes
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Classe\BeanClassEjbSelect]
+CheckSeverity=No
+FixRequested=Yes
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Classe\PKClassDefinition]
+CheckSeverity=No
+FixRequested=Yes
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Classe\PKClassAttributes]
+CheckSeverity=No
+FixRequested=Yes
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Classe\PKClassExistence]
+CheckSeverity=No
+FixRequested=Yes
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Classe\Mapping]
+CheckSeverity=No
+FixRequested=Yes
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Classe\MappingSFMap]
+CheckSeverity=No
+FixRequested=Yes
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Classe\CsfrWrongBound]
+CheckSeverity=Yes
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Classe\ClssInvalidGenMode]
+CheckSeverity=Yes
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Classe\Java_Class_Enum_Enum_ration_abstraite]
+CheckSeverity=No
+FixRequested=Yes
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Classe\Java_Class_Enum_Enum_ration_finale]
+CheckSeverity=No
+FixRequested=Yes
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Classe\Java_Class_EJB3BeanClass_Composant_EJB_manquant]
+CheckSeverity=Yes
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Interface]
+
+[FolderOptions\CheckModel\Interface\UniqueNom]
+CheckSeverity=No
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Interface\UniqueCode]
+CheckSeverity=No
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Interface\Empty classifier]
+CheckSeverity=Yes
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Interface\Visibility]
+CheckSeverity=Yes
+FixRequested=Yes
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Interface\Interface constructor]
+CheckSeverity=No
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Interface\Association navigability]
+CheckSeverity=No
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Interface\HomeCreateMethods]
+CheckSeverity=No
+FixRequested=Yes
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Interface\HomeFindMethods]
+CheckSeverity=No
+FixRequested=Yes
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Interface\HomeMethods]
+CheckSeverity=No
+FixRequested=Yes
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Interface\ObjectBusinessMethods]
+CheckSeverity=No
+FixRequested=Yes
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Interface\CsfrWrongBound]
+CheckSeverity=Yes
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Classe.Attribut]
+
+[FolderOptions\CheckModel\Classe.Attribut\UniqueNom]
+CheckSeverity=No
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Classe.Attribut\UniqueCode]
+CheckSeverity=No
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Classe.Attribut\CheckNumParam]
+CheckSeverity=Yes
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Classe.Attribut\Datatype assignment]
+CheckSeverity=No
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Classe.Attribut\Extend final class]
+CheckSeverity=No
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Classe.Attribut\DomainDivergence]
+CheckSeverity=Yes
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Classe.Identifiant]
+
+[FolderOptions\CheckModel\Classe.Identifiant\UniqueNom]
+CheckSeverity=No
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Classe.Identifiant\UniqueCode]
+CheckSeverity=No
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Classe.Identifiant\EmptyColl - ATTR]
+CheckSeverity=No
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Classe.Identifiant\CheckIncludeColl - Clss]
+CheckSeverity=Yes
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Interface.Attribut]
+
+[FolderOptions\CheckModel\Interface.Attribut\UniqueNom]
+CheckSeverity=No
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Interface.Attribut\UniqueCode]
+CheckSeverity=No
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Interface.Attribut\CheckNumParam]
+CheckSeverity=Yes
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Interface.Attribut\Datatype assignment]
+CheckSeverity=No
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Interface.Attribut\Extend final class]
+CheckSeverity=No
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Interface.Attribut\DomainDivergence]
+CheckSeverity=Yes
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Interface.Attribut\Event parameter datatype]
+CheckSeverity=No
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Classe.Opération]
+
+[FolderOptions\CheckModel\Classe.Opération\UniqueNom]
+CheckSeverity=No
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Classe.Opération\UniqueCode]
+CheckSeverity=No
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Classe.Opération\Return type assignment]
+CheckSeverity=No
+FixRequested=Yes
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Classe.Opération\Parameter datatype]
+CheckSeverity=No
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Classe.Opération\Abstract operation&#39;s body]
+CheckSeverity=No
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Classe.Opération\Abstract operation]
+CheckSeverity=No
+FixRequested=Yes
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Classe.Opération\Operation signature]
+CheckSeverity=No
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Classe.Opération\Overriding operation]
+CheckSeverity=No
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Classe.Opération\Enum Abstract Methods]
+CheckSeverity=No
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Classe.Opération\Java_Operation_Param_tre_d_argument_variable]
+CheckSeverity=No
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Classe.Port]
+
+[FolderOptions\CheckModel\Classe.Port\UniqueNom]
+CheckSeverity=No
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Classe.Port\UniqueCode]
+CheckSeverity=No
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Classe.Port\PortIsolated]
+CheckSeverity=Yes
+FixRequested=No
+CheckRequested=No
+
+[FolderOptions\CheckModel\Classe.Partie]
+
+[FolderOptions\CheckModel\Classe.Partie\UniqueNom]
+CheckSeverity=No
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Classe.Partie\UniqueCode]
+CheckSeverity=No
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Classe.Partie\PartLink]
+CheckSeverity=Yes
+FixRequested=No
+CheckRequested=No
+
+[FolderOptions\CheckModel\Classe.Partie\PartComposition]
+CheckSeverity=Yes
+FixRequested=Yes
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Classe.Connecteur d&#39;assemblage]
+
+[FolderOptions\CheckModel\Classe.Connecteur d&#39;assemblage\UniqueNom]
+CheckSeverity=No
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Classe.Connecteur d&#39;assemblage\UniqueCode]
+CheckSeverity=No
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Classe.Connecteur d&#39;assemblage\AscnNull]
+CheckSeverity=Yes
+FixRequested=No
+CheckRequested=No
+
+[FolderOptions\CheckModel\Classe.Connecteur d&#39;assemblage\AscnIntf]
+CheckSeverity=Yes
+FixRequested=No
+CheckRequested=No
+
+[FolderOptions\CheckModel\Interface.Opération]
+
+[FolderOptions\CheckModel\Interface.Opération\UniqueNom]
+CheckSeverity=No
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Interface.Opération\UniqueCode]
+CheckSeverity=No
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Interface.Opération\Return type assignment]
+CheckSeverity=No
+FixRequested=Yes
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Interface.Opération\Parameter datatype]
+CheckSeverity=No
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Interface.Opération\Java_Operation_Param_tre_d_argument_variable]
+CheckSeverity=No
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Association]
+
+[FolderOptions\CheckModel\Association\Generic links]
+CheckSeverity=No
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Association\Bound links]
+CheckSeverity=No
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Généralisation]
+
+[FolderOptions\CheckModel\Généralisation\Redundant Generalizations]
+CheckSeverity=Yes
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Généralisation\Multiple inheritance (Java)]
+CheckSeverity=No
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Généralisation\Final datatype with initial value]
+CheckSeverity=No
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Généralisation\Non-Persistent Specifying Attribute]
+CheckSeverity=No
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Généralisation\Generic links]
+CheckSeverity=No
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Généralisation\Bound links]
+CheckSeverity=No
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Réalisation]
+
+[FolderOptions\CheckModel\Réalisation\Redundant Realizations]
+CheckSeverity=Yes
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Réalisation\Generic links]
+CheckSeverity=No
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Réalisation\Bound links]
+CheckSeverity=No
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Domaine]
+
+[FolderOptions\CheckModel\Domaine\UniqueNom]
+CheckSeverity=No
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Domaine\UniqueCode]
+CheckSeverity=No
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Domaine\CheckNumParam]
+CheckSeverity=Yes
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Acteur]
+
+[FolderOptions\CheckModel\Acteur\UniqueNom]
+CheckSeverity=No
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Acteur\UniqueCode]
+CheckSeverity=No
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Acteur\Single]
+CheckSeverity=Yes
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Cas d&#39;utilisation]
+
+[FolderOptions\CheckModel\Cas d&#39;utilisation\UniqueNom]
+CheckSeverity=No
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Cas d&#39;utilisation\UniqueCode]
+CheckSeverity=No
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Cas d&#39;utilisation\Single]
+CheckSeverity=Yes
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Objet]
+
+[FolderOptions\CheckModel\Objet\UniqueNom]
+CheckSeverity=No
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Objet\UniqueCode]
+CheckSeverity=No
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Objet\Single]
+CheckSeverity=Yes
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Lien entre objets]
+
+[FolderOptions\CheckModel\Lien entre objets\Redundant Instance links]
+CheckSeverity=Yes
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Référence d&#39;interaction]
+
+[FolderOptions\CheckModel\Référence d&#39;interaction\IRefDiagram]
+CheckSeverity=Yes
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Référence d&#39;interaction\IRefLifelines]
+CheckSeverity=Yes
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Référence d&#39;interaction\IRefInpMsg]
+CheckSeverity=No
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Référence d&#39;interaction\IRefOutMsg]
+CheckSeverity=No
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Message]
+
+[FolderOptions\CheckModel\Message\MessageNoNumber]
+CheckSeverity=Yes
+FixRequested=No
+CheckRequested=No
+
+[FolderOptions\CheckModel\Message\MessageManyLinks]
+CheckSeverity=Yes
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Message\Actor-Message]
+CheckSeverity=Yes
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Activité]
+
+[FolderOptions\CheckModel\Activité\UniqueNom]
+CheckSeverity=No
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Activité\UniqueCode]
+CheckSeverity=No
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Activité\CheckActvTrns]
+CheckSeverity=No
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Activité\CheckNoStart]
+CheckSeverity=No
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Activité\CheckActvReuse]
+CheckSeverity=Yes
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Noeud d&#39;objet]
+
+[FolderOptions\CheckModel\Noeud d&#39;objet\UniqueNom]
+CheckSeverity=No
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Noeud d&#39;objet\UniqueCode]
+CheckSeverity=No
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Noeud d&#39;objet\CheckObndDttp]
+CheckSeverity=Yes
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Décision]
+
+[FolderOptions\CheckModel\Décision\UniqueNom]
+CheckSeverity=No
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Décision\UniqueCode]
+CheckSeverity=No
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Décision\CheckDcsnCompl]
+CheckSeverity=No
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Synchronisation]
+
+[FolderOptions\CheckModel\Synchronisation\UniqueNom]
+CheckSeverity=No
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Synchronisation\UniqueCode]
+CheckSeverity=No
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Synchronisation\CheckSyncCompl]
+CheckSeverity=No
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Unité d&#39;organisation]
+
+[FolderOptions\CheckModel\Unité d&#39;organisation\UniqueNom]
+CheckSeverity=No
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Unité d&#39;organisation\UniqueCode]
+CheckSeverity=No
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Unité d&#39;organisation\CheckPrntOrgnLoop]
+CheckSeverity=No
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Début]
+
+[FolderOptions\CheckModel\Début\UniqueNom]
+CheckSeverity=No
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Début\UniqueCode]
+CheckSeverity=No
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Début\CheckStrtTrns]
+CheckSeverity=No
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Fin]
+
+[FolderOptions\CheckModel\Fin\UniqueNom]
+CheckSeverity=No
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Fin\UniqueCode]
+CheckSeverity=No
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Fin\CheckStrtTrns]
+CheckSeverity=No
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Transition]
+
+[FolderOptions\CheckModel\Transition\CheckTrnsSrc]
+CheckSeverity=No
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Transition\CheckTrnsCond]
+CheckSeverity=Yes
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Transition\TrnsDuplSTAT]
+CheckSeverity=Yes
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Flux]
+
+[FolderOptions\CheckModel\Flux\CheckFlowSrc]
+CheckSeverity=No
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Flux\CheckFlowNoCond]
+CheckSeverity=No
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Flux\CheckFlowCond]
+CheckSeverity=No
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Flux\FlowDuplOOMACTV]
+CheckSeverity=No
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Evénement]
+
+[FolderOptions\CheckModel\Evénement\UniqueNom]
+CheckSeverity=No
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Evénement\UniqueCode]
+CheckSeverity=No
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Evénement\EvntUnused]
+CheckSeverity=Yes
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Etat]
+
+[FolderOptions\CheckModel\Etat\UniqueNom]
+CheckSeverity=No
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Etat\UniqueCode]
+CheckSeverity=No
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Etat\StatTrns]
+CheckSeverity=No
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Etat\StatNoStart]
+CheckSeverity=No
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Etat\ActnOrder]
+CheckSeverity=Yes
+FixRequested=Yes
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Etat.Action]
+
+[FolderOptions\CheckModel\Etat.Action\UniqueNom]
+CheckSeverity=No
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Etat.Action\UniqueCode]
+CheckSeverity=No
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Etat.Action\ActnEvent]
+CheckSeverity=No
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Etat.Action\ActnDupl]
+CheckSeverity=Yes
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Point de jonction]
+
+[FolderOptions\CheckModel\Point de jonction\UniqueNom]
+CheckSeverity=No
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Point de jonction\UniqueCode]
+CheckSeverity=No
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Point de jonction\JnPtCompl]
+CheckSeverity=No
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Composant]
+
+[FolderOptions\CheckModel\Composant\UniqueNom]
+CheckSeverity=No
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Composant\UniqueCode]
+CheckSeverity=No
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Composant\Single]
+CheckSeverity=Yes
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Composant\EJBClassifiers]
+CheckSeverity=No
+FixRequested=Yes
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Composant\Method Soap Message redefinition]
+CheckSeverity=No
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Composant\WSDLJava_Component_Service_Web_vide]
+CheckSeverity=Yes
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Composant.Port]
+
+[FolderOptions\CheckModel\Composant.Port\UniqueNom]
+CheckSeverity=No
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Composant.Port\UniqueCode]
+CheckSeverity=No
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Composant.Port\PortIsolated]
+CheckSeverity=Yes
+FixRequested=No
+CheckRequested=No
+
+[FolderOptions\CheckModel\Composant.Connecteur d&#39;assemblage]
+
+[FolderOptions\CheckModel\Composant.Connecteur d&#39;assemblage\UniqueNom]
+CheckSeverity=No
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Composant.Connecteur d&#39;assemblage\UniqueCode]
+CheckSeverity=No
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Composant.Connecteur d&#39;assemblage\AscnNull]
+CheckSeverity=Yes
+FixRequested=No
+CheckRequested=No
+
+[FolderOptions\CheckModel\Composant.Connecteur d&#39;assemblage\AscnIntf]
+CheckSeverity=Yes
+FixRequested=No
+CheckRequested=No
+
+[FolderOptions\CheckModel\Noeud]
+
+[FolderOptions\CheckModel\Noeud\UniqueNom]
+CheckSeverity=No
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Noeud\UniqueCode]
+CheckSeverity=No
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Noeud\Empty Node]
+CheckSeverity=Yes
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Instance de composant]
+
+[FolderOptions\CheckModel\Instance de composant\UniqueNom]
+CheckSeverity=No
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Instance de composant\UniqueCode]
+CheckSeverity=No
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Instance de composant\Component Instance with null Component]
+CheckSeverity=No
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Instance de composant\Duplicate Component Instance]
+CheckSeverity=Yes
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Instance de composant\Isolated Component Instance]
+CheckSeverity=Yes
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Source de données]
+
+[FolderOptions\CheckModel\Source de données\UniqueNom]
+CheckSeverity=No
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Source de données\UniqueCode]
+CheckSeverity=No
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Source de données\EmptyColl - MODLSRC]
+CheckSeverity=No
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Source de données\Data Source Target Consistency]
+CheckSeverity=Yes
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Activité.Paramètre d&#39;entrée]
+
+[FolderOptions\CheckModel\Activité.Paramètre d&#39;entrée\UniqueNom]
+CheckSeverity=No
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Activité.Paramètre d&#39;entrée\UniqueCode]
+CheckSeverity=No
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Activité.Paramètre de sortie]
+
+[FolderOptions\CheckModel\Activité.Paramètre de sortie\UniqueNom]
+CheckSeverity=No
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Activité.Paramètre de sortie\UniqueCode]
+CheckSeverity=No
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Réplication]
+
+[FolderOptions\CheckModel\Réplication\PartialReplication]
+CheckSeverity=Yes
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Règle de gestion]
+
+[FolderOptions\CheckModel\Règle de gestion\UniqueNom]
+CheckSeverity=No
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Règle de gestion\UniqueCode]
+CheckSeverity=No
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Règle de gestion\EmptyColl - OBJCOL]
+CheckSeverity=Yes
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Objet étendu]
+
+[FolderOptions\CheckModel\Objet étendu\UniqueNom]
+CheckSeverity=No
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Objet étendu\UniqueCode]
+CheckSeverity=No
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Lien étendu]
+
+[FolderOptions\CheckModel\Lien étendu\UniqueNom]
+CheckSeverity=No
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Lien étendu\UniqueCode]
+CheckSeverity=No
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Fichier]
+
+[FolderOptions\CheckModel\Fichier\UniqueNom]
+CheckSeverity=No
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Fichier\CheckPathExists]
+CheckSeverity=Yes
+FixRequested=No
+CheckRequested=Yes</a:PackageOptionsText>
 <a:ModelOptionsText>[ModelOptions]
 
 [ModelOptions\Cld]
@@ -982,7 +2103,7 @@ NameToCode=No</a:ModelOptionsText>
 <a:Code>DiagrammeClasses_1</a:Code>
 <a:CreationDate>1696538230</a:CreationDate>
 <a:Creator>Administrateur</a:Creator>
-<a:ModificationDate>1696540901</a:ModificationDate>
+<a:ModificationDate>1696771685</a:ModificationDate>
 <a:Modifier>Administrateur</a:Modifier>
 <a:DisplayPreferences>[DisplayPreferences]
 
@@ -1396,9 +2517,9 @@ Shadow=0</a:DisplayPreferences>
 <c:Symbols>
 <o:AssociationSymbol Id="o6">
 <a:CreationDate>1696539381</a:CreationDate>
-<a:ModificationDate>1696539778</a:ModificationDate>
-<a:Rect>((-11700,1633), (2811,3957))</a:Rect>
-<a:ListOfPoints>((-11700,2783),(-5962,2783),(-5962,2807),(2811,2807))</a:ListOfPoints>
+<a:ModificationDate>1696772220</a:ModificationDate>
+<a:Rect>((-11700,1611), (2734,3957))</a:Rect>
+<a:ListOfPoints>((-11700,2783),(-5962,2783),(-5962,2785),(2734,2785))</a:ListOfPoints>
 <a:CornerStyle>2</a:CornerStyle>
 <a:ArrowStyle>3592</a:ArrowStyle>
 <a:LineColor>4194432</a:LineColor>
@@ -1417,9 +2538,9 @@ MULA 0 Arial,8,N</a:FontList>
 </o:AssociationSymbol>
 <o:GeneralizationSymbol Id="o10">
 <a:CreationDate>1696540900</a:CreationDate>
-<a:ModificationDate>1696540906</a:ModificationDate>
-<a:Rect>((10338,-9300), (11338,-1275))</a:Rect>
-<a:ListOfPoints>((10500,-9300),(10500,-6225),(11175,-6225),(11175,-1275))</a:ListOfPoints>
+<a:ModificationDate>1697053466</a:ModificationDate>
+<a:Rect>((16852,-9825), (18138,-1284))</a:Rect>
+<a:ListOfPoints>((18138,-9825),(18138,-6638),(16852,-6638),(16852,-1284))</a:ListOfPoints>
 <a:CornerStyle>2</a:CornerStyle>
 <a:ArrowStyle>7</a:ArrowStyle>
 <a:LineColor>4194432</a:LineColor>
@@ -1437,9 +2558,9 @@ MULA 0 Arial,8,N</a:FontList>
 </o:GeneralizationSymbol>
 <o:GeneralizationSymbol Id="o13">
 <a:CreationDate>1696540901</a:CreationDate>
-<a:ModificationDate>1696540901</a:ModificationDate>
-<a:Rect>((-2850,-8850), (1125,-2775))</a:Rect>
-<a:ListOfPoints>((-2850,-8850),(-2850,-6374),(1125,-6374),(1125,-2775))</a:ListOfPoints>
+<a:ModificationDate>1697053477</a:ModificationDate>
+<a:Rect>((1082,-9751), (2197,-2780))</a:Rect>
+<a:ListOfPoints>((2197,-9751),(2197,-6749),(1082,-6749),(1082,-2780))</a:ListOfPoints>
 <a:CornerStyle>2</a:CornerStyle>
 <a:ArrowStyle>7</a:ArrowStyle>
 <a:LineColor>4194432</a:LineColor>
@@ -1455,6 +2576,27 @@ MULA 0 Arial,8,N</a:FontList>
 <o:Generalization Ref="o15"/>
 </c:Object>
 </o:GeneralizationSymbol>
+<o:AssociationSymbol Id="o16">
+<a:CreationDate>1696768043</a:CreationDate>
+<a:ModificationDate>1696772220</a:ModificationDate>
+<a:Rect>((23419,6307), (36215,8655))</a:Rect>
+<a:ListOfPoints>((23419,7481),(36215,7481))</a:ListOfPoints>
+<a:CornerStyle>2</a:CornerStyle>
+<a:ArrowStyle>8</a:ArrowStyle>
+<a:LineColor>4194432</a:LineColor>
+<a:ShadowColor>12632256</a:ShadowColor>
+<a:FontList>DISPNAME 0 Arial,8,N
+MULA 0 Arial,8,N</a:FontList>
+<c:SourceSymbol>
+<o:ClassSymbol Ref="o8"/>
+</c:SourceSymbol>
+<c:DestinationSymbol>
+<o:ClassSymbol Ref="o17"/>
+</c:DestinationSymbol>
+<c:Object>
+<o:Association Ref="o18"/>
+</c:Object>
+</o:AssociationSymbol>
 <o:ClassSymbol Id="o7">
 <a:CreationDate>1696538315</a:CreationDate>
 <a:ModificationDate>1696539778</a:ModificationDate>
@@ -1477,14 +2619,14 @@ LABL 0 Arial,8,N</a:FontList>
 <a:GradientEndColor>16777215</a:GradientEndColor>
 <a:ManuallyResized>1</a:ManuallyResized>
 <c:Object>
-<o:Class Ref="o16"/>
+<o:Class Ref="o19"/>
 </c:Object>
 </o:ClassSymbol>
 <o:ClassSymbol Id="o8">
 <a:CreationDate>1696538316</a:CreationDate>
-<a:ModificationDate>1696539945</a:ModificationDate>
+<a:ModificationDate>1696772220</a:ModificationDate>
 <a:IconMode>-1</a:IconMode>
-<a:Rect>((-974,-3937), (24900,12953))</a:Rect>
+<a:Rect>((-975,-3938), (24375,12900))</a:Rect>
 <a:AutoAdjustToText>0</a:AutoAdjustToText>
 <a:LineColor>128</a:LineColor>
 <a:FillColor>8637161</a:FillColor>
@@ -1502,14 +2644,14 @@ LABL 0 Arial,8,N</a:FontList>
 <a:GradientEndColor>16777215</a:GradientEndColor>
 <a:ManuallyResized>1</a:ManuallyResized>
 <c:Object>
-<o:Class Ref="o17"/>
+<o:Class Ref="o20"/>
 </c:Object>
 </o:ClassSymbol>
 <o:ClassSymbol Id="o14">
 <a:CreationDate>1696540610</a:CreationDate>
-<a:ModificationDate>1696540839</a:ModificationDate>
+<a:ModificationDate>1697053460</a:ModificationDate>
 <a:IconMode>-1</a:IconMode>
-<a:Rect>((-5361,-12636), (1162,-8814))</a:Rect>
+<a:Rect>((-1616,-12935), (7317,-9115))</a:Rect>
 <a:LineColor>128</a:LineColor>
 <a:FillColor>8637161</a:FillColor>
 <a:ShadowColor>12632256</a:ShadowColor>
@@ -1525,14 +2667,14 @@ LABL 0 Arial,8,N</a:FontList>
 <a:GradientFillMode>65</a:GradientFillMode>
 <a:GradientEndColor>16777215</a:GradientEndColor>
 <c:Object>
-<o:Class Ref="o18"/>
+<o:Class Ref="o21"/>
 </c:Object>
 </o:ClassSymbol>
 <o:ClassSymbol Id="o11">
 <a:CreationDate>1696540611</a:CreationDate>
-<a:ModificationDate>1696540906</a:ModificationDate>
+<a:ModificationDate>1697053458</a:ModificationDate>
 <a:IconMode>-1</a:IconMode>
-<a:Rect>((8102,-12786), (13800,-8965))</a:Rect>
+<a:Rect>((13801,-13161), (22501,-9340))</a:Rect>
 <a:LineColor>128</a:LineColor>
 <a:FillColor>8637161</a:FillColor>
 <a:ShadowColor>12632256</a:ShadowColor>
@@ -1548,7 +2690,30 @@ LABL 0 Arial,8,N</a:FontList>
 <a:GradientFillMode>65</a:GradientFillMode>
 <a:GradientEndColor>16777215</a:GradientEndColor>
 <c:Object>
-<o:Class Ref="o19"/>
+<o:Class Ref="o22"/>
+</c:Object>
+</o:ClassSymbol>
+<o:ClassSymbol Id="o17">
+<a:CreationDate>1696768037</a:CreationDate>
+<a:ModificationDate>1696768053</a:ModificationDate>
+<a:IconMode>-1</a:IconMode>
+<a:Rect>((35710,4614), (43792,8435))</a:Rect>
+<a:LineColor>128</a:LineColor>
+<a:FillColor>8637161</a:FillColor>
+<a:ShadowColor>12632256</a:ShadowColor>
+<a:FontList>STRN 0 Arial,8,N
+DISPNAME 0 Arial,8,N
+CNTR 0 Arial,8,N
+Attributes 0 Arial,8,N
+ClassPrimaryAttribute 0 Arial,8,U
+Operations 0 Arial,8,N
+InnerClassifiers 0 Arial,8,N
+LABL 0 Arial,8,N</a:FontList>
+<a:BrushStyle>6</a:BrushStyle>
+<a:GradientFillMode>65</a:GradientFillMode>
+<a:GradientEndColor>16777215</a:GradientEndColor>
+<c:Object>
+<o:Class Ref="o23"/>
 </c:Object>
 </o:ClassSymbol>
 </c:Symbols>
@@ -1558,17 +2723,17 @@ LABL 0 Arial,8,N</a:FontList>
 <o:ClassDiagram Ref="o5"/>
 </c:DefaultDiagram>
 <c:Classes>
-<o:Class Id="o16">
+<o:Class Id="o19">
 <a:ObjectID>040CC705-F29B-4754-8226-6025EC11ABB6</a:ObjectID>
 <a:Name>Client</a:Name>
 <a:Code>Client</a:Code>
 <a:CreationDate>1696538315</a:CreationDate>
 <a:Creator>Administrateur</a:Creator>
-<a:ModificationDate>1696539638</a:ModificationDate>
+<a:ModificationDate>1696772928</a:ModificationDate>
 <a:Modifier>Administrateur</a:Modifier>
 <a:UseParentNamespace>0</a:UseParentNamespace>
 <c:Attributes>
-<o:Attribute Id="o20">
+<o:Attribute Id="o24">
 <a:ObjectID>FA4B21DF-AE13-48E8-8731-49051DA9AF3A</a:ObjectID>
 <a:Name>Nom</a:Name>
 <a:Code>nom</a:Code>
@@ -1579,7 +2744,7 @@ LABL 0 Arial,8,N</a:FontList>
 <a:DataType>String</a:DataType>
 <a:Attribute.Visibility>-</a:Attribute.Visibility>
 </o:Attribute>
-<o:Attribute Id="o21">
+<o:Attribute Id="o25">
 <a:ObjectID>2AEC15A0-2752-4A5D-9F9B-453DBD95B2E2</a:ObjectID>
 <a:Name>Prenom</a:Name>
 <a:Code>prenom</a:Code>
@@ -1590,7 +2755,7 @@ LABL 0 Arial,8,N</a:FontList>
 <a:DataType>String</a:DataType>
 <a:Attribute.Visibility>-</a:Attribute.Visibility>
 </o:Attribute>
-<o:Attribute Id="o22">
+<o:Attribute Id="o26">
 <a:ObjectID>C565F84E-5116-4767-B4A0-ACA2CEDED389</a:ObjectID>
 <a:Name>CIN</a:Name>
 <a:Code>cin</a:Code>
@@ -1601,18 +2766,7 @@ LABL 0 Arial,8,N</a:FontList>
 <a:DataType>String</a:DataType>
 <a:Attribute.Visibility>-</a:Attribute.Visibility>
 </o:Attribute>
-<o:Attribute Id="o23">
-<a:ObjectID>716F66E1-CCA0-4FBD-81B4-FC27ED9A13BC</a:ObjectID>
-<a:Name>accountNum</a:Name>
-<a:Code>accountNum</a:Code>
-<a:CreationDate>1696539617</a:CreationDate>
-<a:Creator>Administrateur</a:Creator>
-<a:ModificationDate>1696540773</a:ModificationDate>
-<a:Modifier>Administrateur</a:Modifier>
-<a:DataType>int</a:DataType>
-<a:Attribute.Visibility>-</a:Attribute.Visibility>
-</o:Attribute>
-<o:Attribute Id="o24">
+<o:Attribute Id="o27">
 <a:ObjectID>F0BCCD35-8EA1-48F9-B0B2-3E9EC0637808</a:ObjectID>
 <a:Name>password</a:Name>
 <a:Code>password</a:Code>
@@ -1625,17 +2779,17 @@ LABL 0 Arial,8,N</a:FontList>
 </o:Attribute>
 </c:Attributes>
 </o:Class>
-<o:Class Id="o17">
+<o:Class Id="o20">
 <a:ObjectID>07DBDBD5-A47A-420F-BB18-A7333C54076D</a:ObjectID>
 <a:Name>Account</a:Name>
 <a:Code>Account</a:Code>
 <a:CreationDate>1696538316</a:CreationDate>
 <a:Creator>Administrateur</a:Creator>
-<a:ModificationDate>1696540275</a:ModificationDate>
+<a:ModificationDate>1696772941</a:ModificationDate>
 <a:Modifier>Administrateur</a:Modifier>
 <a:UseParentNamespace>0</a:UseParentNamespace>
 <c:Attributes>
-<o:Attribute Id="o25">
+<o:Attribute Id="o28">
 <a:ObjectID>3B6687FB-A855-4C9C-8EB8-2ACBDB8697F5</a:ObjectID>
 <a:Name>dateCreation</a:Name>
 <a:Code>dateCreation</a:Code>
@@ -1646,7 +2800,7 @@ LABL 0 Arial,8,N</a:FontList>
 <a:DataType>Date</a:DataType>
 <a:Attribute.Visibility>-</a:Attribute.Visibility>
 </o:Attribute>
-<o:Attribute Id="o26">
+<o:Attribute Id="o29">
 <a:ObjectID>5FF1C036-CAE1-45B2-B4F6-A38771746A65</a:ObjectID>
 <a:Name>balance</a:Name>
 <a:Code>balance</a:Code>
@@ -1657,7 +2811,7 @@ LABL 0 Arial,8,N</a:FontList>
 <a:DataType>int</a:DataType>
 <a:Attribute.Visibility>-</a:Attribute.Visibility>
 </o:Attribute>
-<o:Attribute Id="o27">
+<o:Attribute Id="o30">
 <a:ObjectID>23675039-E24F-4778-B07E-216CE935EE4D</a:ObjectID>
 <a:Name>accountType</a:Name>
 <a:Code>accountType</a:Code>
@@ -1668,9 +2822,20 @@ LABL 0 Arial,8,N</a:FontList>
 <a:DataType>int</a:DataType>
 <a:Attribute.Visibility>-</a:Attribute.Visibility>
 </o:Attribute>
+<o:Attribute Id="o31">
+<a:ObjectID>DFE62BF4-2DF1-4BB5-8933-7F6902A03745</a:ObjectID>
+<a:Name>accountNumber</a:Name>
+<a:Code>accountNumber</a:Code>
+<a:CreationDate>1696772930</a:CreationDate>
+<a:Creator>Administrateur</a:Creator>
+<a:ModificationDate>1696772941</a:ModificationDate>
+<a:Modifier>Administrateur</a:Modifier>
+<a:DataType>int</a:DataType>
+<a:Attribute.Visibility>-</a:Attribute.Visibility>
+</o:Attribute>
 </c:Attributes>
 <c:Operations>
-<o:Operation Id="o28">
+<o:Operation Id="o32">
 <a:ObjectID>5AC2A770-40B2-4316-8950-584D5FE3B2DC</a:ObjectID>
 <a:Name>Login</a:Name>
 <a:Code>login</a:Code>
@@ -1681,18 +2846,21 @@ LABL 0 Arial,8,N</a:FontList>
 <a:ReturnType>void</a:ReturnType>
 <a:TemplateBody>%DefaultBody%</a:TemplateBody>
 <c:Parameters>
-<o:Parameter Id="o29">
+<o:Parameter Id="o33">
 <a:ObjectID>6BCC9710-F554-4558-B915-73708602B72E</a:ObjectID>
-<a:Name>numAccount</a:Name>
-<a:Code>numAccount</a:Code>
+<a:Name>cardNumber</a:Name>
+<a:Code>cardNumber</a:Code>
 <a:CreationDate>1696539688</a:CreationDate>
 <a:Creator>Administrateur</a:Creator>
-<a:ModificationDate>1696539720</a:ModificationDate>
+<a:ModificationDate>1696774175</a:ModificationDate>
 <a:Modifier>Administrateur</a:Modifier>
-<a:Parameter.DataType>int</a:Parameter.DataType>
+<a:Parameter.DataType>BankCard</a:Parameter.DataType>
 <a:ParameterType>I</a:ParameterType>
+<c:ObjectDataType>
+<o:Class Ref="o23"/>
+</c:ObjectDataType>
 </o:Parameter>
-<o:Parameter Id="o30">
+<o:Parameter Id="o34">
 <a:ObjectID>7F04ABB8-7579-4688-9132-34773B73A07F</a:ObjectID>
 <a:Name>password</a:Name>
 <a:Code>password</a:Code>
@@ -1705,7 +2873,7 @@ LABL 0 Arial,8,N</a:FontList>
 </o:Parameter>
 </c:Parameters>
 </o:Operation>
-<o:Operation Id="o31">
+<o:Operation Id="o35">
 <a:ObjectID>5690D641-7406-47DA-8C37-F86B249D55D8</a:ObjectID>
 <a:Name>Account</a:Name>
 <a:Code>Account</a:Code>
@@ -1717,10 +2885,10 @@ LABL 0 Arial,8,N</a:FontList>
 <a:Automatic>1</a:Automatic>
 <a:TemplateBody>%DefaultBody%</a:TemplateBody>
 <c:InfluentObject>
-<o:Class Ref="o17"/>
+<o:Class Ref="o20"/>
 </c:InfluentObject>
 </o:Operation>
-<o:Operation Id="o32">
+<o:Operation Id="o36">
 <a:ObjectID>338E183A-4BC9-4C81-9A27-0B6282D4591F</a:ObjectID>
 <a:Name>finalize</a:Name>
 <a:Code>finalize</a:Code>
@@ -1734,10 +2902,10 @@ LABL 0 Arial,8,N</a:FontList>
 <a:Automatic>1</a:Automatic>
 <a:TemplateBody>%DefaultBody%</a:TemplateBody>
 <c:InfluentObject>
-<o:Class Ref="o17"/>
+<o:Class Ref="o20"/>
 </c:InfluentObject>
 </o:Operation>
-<o:Operation Id="o33">
+<o:Operation Id="o37">
 <a:ObjectID>ED816B52-0081-4FE6-9EC5-85966BF0A14F</a:ObjectID>
 <a:Name>withdrawCash</a:Name>
 <a:Code>withdrawCash</a:Code>
@@ -1748,7 +2916,7 @@ LABL 0 Arial,8,N</a:FontList>
 <a:ReturnType>void</a:ReturnType>
 <a:TemplateBody>%DefaultBody%</a:TemplateBody>
 </o:Operation>
-<o:Operation Id="o34">
+<o:Operation Id="o38">
 <a:ObjectID>5972E58E-1121-4DDF-88A2-93EFE8924B04</a:ObjectID>
 <a:Name>transferMoney</a:Name>
 <a:Code>transferMoney</a:Code>
@@ -1759,7 +2927,7 @@ LABL 0 Arial,8,N</a:FontList>
 <a:ReturnType>void</a:ReturnType>
 <a:TemplateBody>%DefaultBody%</a:TemplateBody>
 </o:Operation>
-<o:Operation Id="o35">
+<o:Operation Id="o39">
 <a:ObjectID>6903291C-08A6-4FE8-B270-CED0F8E2F0EF</a:ObjectID>
 <a:Name>checkBankBalance</a:Name>
 <a:Code>checkBankBalance</a:Code>
@@ -1770,7 +2938,7 @@ LABL 0 Arial,8,N</a:FontList>
 <a:ReturnType>void</a:ReturnType>
 <a:TemplateBody>%DefaultBody%</a:TemplateBody>
 </o:Operation>
-<o:Operation Id="o36">
+<o:Operation Id="o40">
 <a:ObjectID>15B1E282-8B15-46C9-9996-82B751D17E88</a:ObjectID>
 <a:Name>getPrintedBalanceStatement</a:Name>
 <a:Code>getPrintedBalanceStatement</a:Code>
@@ -1781,7 +2949,7 @@ LABL 0 Arial,8,N</a:FontList>
 <a:ReturnType>void</a:ReturnType>
 <a:TemplateBody>%DefaultBody%</a:TemplateBody>
 </o:Operation>
-<o:Operation Id="o37">
+<o:Operation Id="o41">
 <a:ObjectID>C8F744A3-6B57-4B56-BBEA-383F27439F5B</a:ObjectID>
 <a:Name>logout</a:Name>
 <a:Code>logout</a:Code>
@@ -1794,25 +2962,74 @@ LABL 0 Arial,8,N</a:FontList>
 </o:Operation>
 </c:Operations>
 </o:Class>
-<o:Class Id="o18">
+<o:Class Id="o21">
 <a:ObjectID>65CCC002-8F00-4DDC-9FBE-5AF7C404CBC7</a:ObjectID>
 <a:Name>checkingAccount</a:Name>
 <a:Code>CheckingAccount</a:Code>
 <a:CreationDate>1696540610</a:CreationDate>
 <a:Creator>Administrateur</a:Creator>
-<a:ModificationDate>1696540633</a:ModificationDate>
+<a:ModificationDate>1697053430</a:ModificationDate>
 <a:Modifier>Administrateur</a:Modifier>
 <a:UseParentNamespace>0</a:UseParentNamespace>
+<c:Attributes>
+<o:Attribute Id="o42">
+<a:ObjectID>48327623-6DEF-428C-B1D2-60006001E1C0</a:ObjectID>
+<a:Name>overdraftFee</a:Name>
+<a:Code>overdraftFee</a:Code>
+<a:CreationDate>1697053406</a:CreationDate>
+<a:Creator>Administrateur</a:Creator>
+<a:ModificationDate>1697053430</a:ModificationDate>
+<a:Modifier>Administrateur</a:Modifier>
+<a:DataType>float</a:DataType>
+<a:Attribute.Visibility>-</a:Attribute.Visibility>
+</o:Attribute>
+</c:Attributes>
 </o:Class>
-<o:Class Id="o19">
+<o:Class Id="o22">
 <a:ObjectID>8528F21F-E763-4D5C-8FF4-CA4B37BDAA40</a:ObjectID>
 <a:Name>savingAccount</a:Name>
 <a:Code>SavingAccount</a:Code>
 <a:CreationDate>1696540611</a:CreationDate>
 <a:Creator>Administrateur</a:Creator>
-<a:ModificationDate>1696540628</a:ModificationDate>
+<a:ModificationDate>1697053405</a:ModificationDate>
 <a:Modifier>Administrateur</a:Modifier>
 <a:UseParentNamespace>0</a:UseParentNamespace>
+<c:Attributes>
+<o:Attribute Id="o43">
+<a:ObjectID>491C7EC5-4F52-4F64-B229-2A144724BE66</a:ObjectID>
+<a:Name>interestRate</a:Name>
+<a:Code>interestRate</a:Code>
+<a:CreationDate>1697053342</a:CreationDate>
+<a:Creator>Administrateur</a:Creator>
+<a:ModificationDate>1697053405</a:ModificationDate>
+<a:Modifier>Administrateur</a:Modifier>
+<a:DataType>float</a:DataType>
+<a:Attribute.Visibility>-</a:Attribute.Visibility>
+</o:Attribute>
+</c:Attributes>
+</o:Class>
+<o:Class Id="o23">
+<a:ObjectID>C82020B2-EF82-4939-A9AB-31AEF713E259</a:ObjectID>
+<a:Name>bankCard</a:Name>
+<a:Code>BankCard</a:Code>
+<a:CreationDate>1696768037</a:CreationDate>
+<a:Creator>Administrateur</a:Creator>
+<a:ModificationDate>1697053340</a:ModificationDate>
+<a:Modifier>Administrateur</a:Modifier>
+<a:UseParentNamespace>0</a:UseParentNamespace>
+<c:Attributes>
+<o:Attribute Id="o44">
+<a:ObjectID>8AE39354-5C6B-49AB-AE47-680C63BCB1C6</a:ObjectID>
+<a:Name>cardNumber</a:Name>
+<a:Code>cardNumber</a:Code>
+<a:CreationDate>1697053268</a:CreationDate>
+<a:Creator>Administrateur</a:Creator>
+<a:ModificationDate>1697053340</a:ModificationDate>
+<a:Modifier>Administrateur</a:Modifier>
+<a:DataType>int</a:DataType>
+<a:Attribute.Visibility>-</a:Attribute.Visibility>
+</o:Attribute>
+</c:Attributes>
 </o:Class>
 </c:Classes>
 <c:Associations>
@@ -1833,10 +3050,33 @@ LABL 0 Arial,8,N</a:FontList>
 
 </a:ExtendedAttributesText>
 <c:Object1>
-<o:Class Ref="o17"/>
+<o:Class Ref="o20"/>
 </c:Object1>
 <c:Object2>
-<o:Class Ref="o16"/>
+<o:Class Ref="o19"/>
+</c:Object2>
+</o:Association>
+<o:Association Id="o18">
+<a:ObjectID>A5E99912-F36F-4637-9CF3-14DA093FD1BB</a:ObjectID>
+<a:Name>Association_2</a:Name>
+<a:Code>association2</a:Code>
+<a:CreationDate>1696768043</a:CreationDate>
+<a:Creator>Administrateur</a:Creator>
+<a:ModificationDate>1696771061</a:ModificationDate>
+<a:Modifier>Administrateur</a:Modifier>
+<a:RoleAMultiplicity>1..1</a:RoleAMultiplicity>
+<a:RoleBMultiplicity>1..1</a:RoleBMultiplicity>
+<a:ExtendedAttributesText>{0DEDDB90-46E2-45A0-886E-411709DA0DC9},Java,276={72FA5C48-5524-4DF7-8187-ABB19AB5AF9E},roleAContainer,6=&lt;None&gt;
+{F6FFC71C-C472-4261-A710-B0BCC0BF4D58},roleAImplementationClass,6=&lt;None&gt;
+{C11C9F66-6453-43A2-8824-6654518CF65A},roleBImplementationClass,6=&lt;None&gt;
+{78C31404-0EE5-4FD0-9038-EE396B305F05},roleBContainer,6=&lt;None&gt;
+
+</a:ExtendedAttributesText>
+<c:Object1>
+<o:Class Ref="o23"/>
+</c:Object1>
+<c:Object2>
+<o:Class Ref="o20"/>
 </c:Object2>
 </o:Association>
 </c:Associations>
@@ -1850,10 +3090,10 @@ LABL 0 Arial,8,N</a:FontList>
 <a:ModificationDate>1696540900</a:ModificationDate>
 <a:Modifier>Administrateur</a:Modifier>
 <c:Object1>
-<o:Class Ref="o17"/>
+<o:Class Ref="o20"/>
 </c:Object1>
 <c:Object2>
-<o:Class Ref="o19"/>
+<o:Class Ref="o22"/>
 </c:Object2>
 </o:Generalization>
 <o:Generalization Id="o15">
@@ -1865,15 +3105,15 @@ LABL 0 Arial,8,N</a:FontList>
 <a:ModificationDate>1696540901</a:ModificationDate>
 <a:Modifier>Administrateur</a:Modifier>
 <c:Object1>
-<o:Class Ref="o17"/>
+<o:Class Ref="o20"/>
 </c:Object1>
 <c:Object2>
-<o:Class Ref="o18"/>
+<o:Class Ref="o21"/>
 </c:Object2>
 </o:Generalization>
 </c:Generalizations>
 <c:TargetModels>
-<o:TargetModel Id="o38">
+<o:TargetModel Id="o45">
 <a:ObjectID>EAB655DF-6341-4321-AEEA-792F130F7653</a:ObjectID>
 <a:Name>Java</a:Name>
 <a:Code>Java</a:Code>
@@ -1888,7 +3128,7 @@ LABL 0 Arial,8,N</a:FontList>
 <o:Shortcut Ref="o3"/>
 </c:SessionShortcuts>
 </o:TargetModel>
-<o:TargetModel Id="o39">
+<o:TargetModel Id="o46">
 <a:ObjectID>ED3D288F-203D-49F2-BA48-827E3AEDFD06</a:ObjectID>
 <a:Name>WSDL for Java</a:Name>
 <a:Code>WSDLJava</a:Code>
