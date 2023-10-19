@@ -13,8 +13,8 @@ public class ConnectDB {
 			conn = DriverManager.getConnection(connectionUrl);
 			System.out.println("Connectedd");
 			 /*Statement stmt = connection.createStatement();
-	           String query = "INSERT INTO clients (nom, prenom, cin, cardNumber, password, accountType, accountNumber)"
-	            		+ "VALUES ('Wilson', 'Sophia', '8888888888', '1234567890123456', 'secure456', 'Checking', '7654321098765432')";
+	           String query = "INSERT INTO CLIENT (nom, prenom, cin, cardNumber, password, accountType, accountNumber,balance)"
+	            		+ "VALUES ('Wilson', 'Sophia', '8888888888', '1234567890123456', 'secure456', 'Checking', '7654321098765432',2000.00)";
 
 	            //for a non Query statement
 	            int result = stmt.executeUpdate(query);           
