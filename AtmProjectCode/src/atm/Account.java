@@ -53,9 +53,9 @@ public class Account {
 	}
 	
 	//withDrawCash method
-	public void withDrawCash(float balance, float amount) throws SQLException {
+	public void withDrawCash(float balanceValue, String cardNumber, float amount) throws SQLException {
 		
-		p = conn.prepareStatement(query);
+		/*p = conn.prepareStatement(query);
 		rs = p.executeQuery();
 		while(rs.next()) {
 			if(amount <= balance) {
@@ -71,9 +71,24 @@ public class Account {
 		else {
 			System.out.println("operation impossible!!");
 		}
-	  }
+	  }*/
 		
+		if(cardNumIsExist(cardNumber) == true && balanceValue >= amount) {
+			query = "UPDATE CLIENT SET balance = ? where card_number = ?";
+			p = conn.prepareStatement(query);
+			balanceValue -= amount;
+		    p.setFloat(1, balanceValue);
+		    p.setString(2, cardNumber);
+		    p.executeUpdate();
+		    balance-= amount;
+		    //System.out.println(balance);
+		    
+		}
+		else {
+			System.out.println("operation impossible!!");
+		}
 		
+			
 		
 	}
 	
