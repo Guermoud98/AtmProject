@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?PowerDesigner AppLocale="UTF16" ID="{AF1C33F8-3985-4AE7-95F3-083141D21AEB}" Label="" LastModificationDate="1697577673" Name="ModeleOrienteObjet_2" Objects="35" Symbols="9" Target="Java" TargetLink="Reference" Type="{18112060-1A4B-11D1-83D9-444553540000}" signature="CLD_OBJECT_MODEL" version="15.1.0.2850"?>
+<?PowerDesigner AppLocale="UTF16" ID="{AF1C33F8-3985-4AE7-95F3-083141D21AEB}" Label="" LastModificationDate="1697670192" Name="ModeleOrienteObjet_2" Objects="34" Symbols="7" Target="Java" TargetLink="Reference" Type="{18112060-1A4B-11D1-83D9-444553540000}" signature="CLD_OBJECT_MODEL" version="15.1.0.2850"?>
 <!-- Veuillez ne pas modifier ce fichier -->
 
 <Model xmlns:a="attribute" xmlns:c="collection" xmlns:o="object">
@@ -2730,7 +2730,7 @@ LABL 0 Arial,8,N</a:FontList>
 <a:Code>Account</a:Code>
 <a:CreationDate>1696538316</a:CreationDate>
 <a:Creator>Administrateur</a:Creator>
-<a:ModificationDate>1696772941</a:ModificationDate>
+<a:ModificationDate>1697670192</a:ModificationDate>
 <a:Modifier>Administrateur</a:Modifier>
 <a:UseParentNamespace>0</a:UseParentNamespace>
 <c:Attributes>
@@ -2853,12 +2853,39 @@ LABL 0 Arial,8,N</a:FontList>
 <a:Code>withdrawCash</a:Code>
 <a:CreationDate>1696539783</a:CreationDate>
 <a:Creator>Administrateur</a:Creator>
-<a:ModificationDate>1696539886</a:ModificationDate>
+<a:ModificationDate>1697670192</a:ModificationDate>
 <a:Modifier>Administrateur</a:Modifier>
 <a:ReturnType>void</a:ReturnType>
 <a:TemplateBody>%DefaultBody%</a:TemplateBody>
+<c:Parameters>
+<o:Parameter Id="o33">
+<a:ObjectID>E963B2C4-119F-4C2F-A575-B784E387FF0D</a:ObjectID>
+<a:Name>amount</a:Name>
+<a:Code>amount</a:Code>
+<a:CreationDate>1697669855</a:CreationDate>
+<a:Creator>Administrateur</a:Creator>
+<a:ModificationDate>1697670001</a:ModificationDate>
+<a:Modifier>Administrateur</a:Modifier>
+<a:Parameter.DataType>float</a:Parameter.DataType>
+<a:ParameterType>I</a:ParameterType>
+</o:Parameter>
+<o:Parameter Id="o34">
+<a:ObjectID>2B08363F-7A0B-478F-8F7E-B38A110F0E28</a:ObjectID>
+<a:Name>user</a:Name>
+<a:Code>user</a:Code>
+<a:CreationDate>1697670170</a:CreationDate>
+<a:Creator>Administrateur</a:Creator>
+<a:ModificationDate>1697670192</a:ModificationDate>
+<a:Modifier>Administrateur</a:Modifier>
+<a:Parameter.DataType>Account</a:Parameter.DataType>
+<a:ParameterType>I</a:ParameterType>
+<c:ObjectDataType>
+<o:Class Ref="o17"/>
+</c:ObjectDataType>
+</o:Parameter>
+</c:Parameters>
 </o:Operation>
-<o:Operation Id="o33">
+<o:Operation Id="o35">
 <a:ObjectID>5972E58E-1121-4DDF-88A2-93EFE8924B04</a:ObjectID>
 <a:Name>transferMoney</a:Name>
 <a:Code>transferMoney</a:Code>
@@ -2869,7 +2896,7 @@ LABL 0 Arial,8,N</a:FontList>
 <a:ReturnType>void</a:ReturnType>
 <a:TemplateBody>%DefaultBody%</a:TemplateBody>
 </o:Operation>
-<o:Operation Id="o34">
+<o:Operation Id="o36">
 <a:ObjectID>6903291C-08A6-4FE8-B270-CED0F8E2F0EF</a:ObjectID>
 <a:Name>checkBankBalance</a:Name>
 <a:Code>checkBankBalance</a:Code>
@@ -2880,7 +2907,7 @@ LABL 0 Arial,8,N</a:FontList>
 <a:ReturnType>void</a:ReturnType>
 <a:TemplateBody>%DefaultBody%</a:TemplateBody>
 </o:Operation>
-<o:Operation Id="o35">
+<o:Operation Id="o37">
 <a:ObjectID>15B1E282-8B15-46C9-9996-82B751D17E88</a:ObjectID>
 <a:Name>getPrintedBalanceStatement</a:Name>
 <a:Code>getPrintedBalanceStatement</a:Code>
@@ -2891,7 +2918,7 @@ LABL 0 Arial,8,N</a:FontList>
 <a:ReturnType>void</a:ReturnType>
 <a:TemplateBody>%DefaultBody%</a:TemplateBody>
 </o:Operation>
-<o:Operation Id="o36">
+<o:Operation Id="o38">
 <a:ObjectID>C8F744A3-6B57-4B56-BBEA-383F27439F5B</a:ObjectID>
 <a:Name>logout</a:Name>
 <a:Code>logout</a:Code>
@@ -2914,7 +2941,7 @@ LABL 0 Arial,8,N</a:FontList>
 <a:Modifier>Administrateur</a:Modifier>
 <a:UseParentNamespace>0</a:UseParentNamespace>
 <c:Attributes>
-<o:Attribute Id="o37">
+<o:Attribute Id="o39">
 <a:ObjectID>48327623-6DEF-428C-B1D2-60006001E1C0</a:ObjectID>
 <a:Name>overdraftFee</a:Name>
 <a:Code>overdraftFee</a:Code>
@@ -2937,7 +2964,7 @@ LABL 0 Arial,8,N</a:FontList>
 <a:Modifier>Administrateur</a:Modifier>
 <a:UseParentNamespace>0</a:UseParentNamespace>
 <c:Attributes>
-<o:Attribute Id="o38">
+<o:Attribute Id="o40">
 <a:ObjectID>491C7EC5-4F52-4F64-B229-2A144724BE66</a:ObjectID>
 <a:Name>interestRate</a:Name>
 <a:Code>interestRate</a:Code>
@@ -3009,13 +3036,13 @@ LABL 0 Arial,8,N</a:FontList>
 </o:Generalization>
 </c:Generalizations>
 <c:TargetModels>
-<o:TargetModel Id="o39">
+<o:TargetModel Id="o41">
 <a:ObjectID>EAB655DF-6341-4321-AEEA-792F130F7653</a:ObjectID>
 <a:Name>Java</a:Name>
 <a:Code>Java</a:Code>
 <a:CreationDate>1696538230</a:CreationDate>
 <a:Creator>Administrateur</a:Creator>
-<a:ModificationDate>1697284506</a:ModificationDate>
+<a:ModificationDate>1697665309</a:ModificationDate>
 <a:Modifier>Administrateur</a:Modifier>
 <a:TargetModelURL>file:///%_OBJLANG%/java5-j2ee14.xol</a:TargetModelURL>
 <a:TargetModelID>0DEDDB90-46E2-45A0-886E-411709DA0DC9</a:TargetModelID>
@@ -3024,13 +3051,13 @@ LABL 0 Arial,8,N</a:FontList>
 <o:Shortcut Ref="o3"/>
 </c:SessionShortcuts>
 </o:TargetModel>
-<o:TargetModel Id="o40">
+<o:TargetModel Id="o42">
 <a:ObjectID>ED3D288F-203D-49F2-BA48-827E3AEDFD06</a:ObjectID>
 <a:Name>WSDL for Java</a:Name>
 <a:Code>WSDLJava</a:Code>
 <a:CreationDate>1696538231</a:CreationDate>
 <a:Creator>Administrateur</a:Creator>
-<a:ModificationDate>1697284506</a:ModificationDate>
+<a:ModificationDate>1697665309</a:ModificationDate>
 <a:Modifier>Administrateur</a:Modifier>
 <a:TargetModelURL>file:///%_XEM%/WSDLJ2EE.xem</a:TargetModelURL>
 <a:TargetModelID>C8F5F7B2-CF9D-4E98-8301-959BB6E86C8A</a:TargetModelID>

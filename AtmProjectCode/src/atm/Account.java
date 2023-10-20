@@ -119,6 +119,13 @@ public class Account {
 		return false;
 	}
 	
+	public void checkBalanceAccount() {
+		System.out.println("Your current balance is: "+ balance);
+	}
+	
+	
+	
+	
 	
 	
 	//getters and setters :
