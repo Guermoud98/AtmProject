@@ -8,7 +8,9 @@ public class App {
 		Account a =  new Account("7654321098765432");
 		a.Login(a.getCardNumber(),"secure456");
 		//a.withDrawCash(a.getBalance(),a.getCardNumber() ,2);
-		a.checkBankalance();
+		a.logout();
+		a.checkBankbalance();
+		
 		//System.out.println("get" +a.getBalance());
 		//System.out.println(a.getAccountNumber());
 		//System.out.println(a.getAccountType());

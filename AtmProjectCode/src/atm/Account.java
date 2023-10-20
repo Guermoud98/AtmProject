@@ -119,8 +119,12 @@ public class Account {
 		return false;
 	}
 	
-	public void checkBalanceAccount() {
+	public void checkBankbalance() {
 		System.out.println("Your current balance is: "+ balance);
+	}
+	
+	public void logout() {
+		System.exit(0);
 	}
 	
 	
