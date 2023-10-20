@@ -17,9 +17,9 @@ public class Account {
 	private Connection conn = ConnectDB.getConn();
 	
 	public Account(String cardNumber) throws SQLException {
-		this.cardNumber = cardNumber;
 		p = conn.prepareStatement(query);
 		rs = p.executeQuery();
+		this.cardNumber = cardNumber;
 		while(rs.next()) {
 			if(rs.getString(8).equals(cardNumber)) {
 				balance = rs.getFloat(9);
@@ -125,14 +125,18 @@ public class Account {
 		return false;
 	}
 	
-	public void checkBankbalance() {
-		System.out.println("Your current balance is: "+ balance);
-	}
+	
 	
 	public void logout() {
 		System.exit(0);
 	}
-	
+	//affichafe
+	@Override
+	public String toString() {
+		return "Account [balance=" + balance + ", accountType=" + accountType + ", accountNumber=" + accountNumber
+				+ ", cardNumber=" + cardNumber + ", nom=" + nom + ", prenom=" + prenom + ", cin=" + cin + "]";
+	}
+
 	
 	
 	
