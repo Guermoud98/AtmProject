@@ -8,6 +8,9 @@ public class Account {
 	private String accountNumber;
 	private String cardNumber;
 	private String password;
+	private String nom;
+	private String prenom;
+	private String cin;
 	private PreparedStatement p = null;
 	private ResultSet rs = null;
 	private String query = "SELECT * FROM CLIENT";
@@ -23,12 +26,15 @@ public class Account {
 				accountType = rs.getString(7);
 				accountNumber = rs.getString(5);
 				password = rs.getString(6);
+				cardNumber = rs.getString(8);
+				nom =  rs.getString(2);
+				prenom =  rs.getString(3);
+				cin =  rs.getString(4);
 			}
 	
 		}
 		
 	}
-	
 	
 
 	
@@ -132,6 +138,7 @@ public class Account {
 	
 	
 	
+	
 	//getters and setters :
 	public float getBalance() {
 		return balance;
@@ -168,6 +175,33 @@ public class Account {
 
 	public void setCardNumber(String cardNumber) {
 		this.cardNumber = cardNumber;
+	}
+	public String getNom() {
+		return nom;
+	}
+
+
+	public void setNom(String nom) {
+		this.nom = nom;
+	}
+
+
+	public String getPrenom() {
+		return prenom;
+	}
+
+
+	public void setPrenom(String prenom) {
+		this.prenom = prenom;
+	}
+
+
+	public String getCin() {
+		return cin;
+	}
+
+	public void setCin(String cin) {
+		this.cin = cin;
 	}
 
 	
