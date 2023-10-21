@@ -7,27 +7,26 @@ public class Client {
 	 private String nom;
 	 private String prenom;
 	 private String cin;
-	 private List<Account> a;                               
+	 private List<Account> acc;                               
 	 
 	 public Client(List<Account> a, String cardNumber) {
-		 this.a = new ArrayList<>();
+		 this.acc = new ArrayList<>();
 		 for(int i=0; i<a.size(); i++) {
 			 if(cardNumber.equals(a.get(i).getCardNumber())) {
 				this.nom = a.get(i).getNom();
 				this.prenom = a.get(i).getPrenom();
 				this.cin = a.get(i).getCin();
-				this.a.add(a.get(i));
+				this.acc.add(a.get(i));
+				
 				
 			 }
 		 }
 	 }
 	
-	public void getInfoClient(String cardNumber) { // I passed the cardNumber to display information related to this specific client. He could have two different accounts with the same credit card.
-		 for(int i=0 ; i<a.size(); i++) {
-			 if(cardNumber.equals(a.get(i).getCardNumber())) {
-				 System.out.println(a.get(i).toString());
+	public void getInfoClient() { // I passed the cardNumber to display information related to this specific client. He could have two different accounts with the same credit card.
+		 for(int i=0 ; i<acc.size(); i++) {
+				 System.out.println(acc.get(i));
 				
-			 }
 		 }
 	 }
 	
@@ -51,13 +50,24 @@ public class Client {
 		public void setPrenom(String prenom) {
 			this.prenom = prenom;
 		}
-		public List<Account> getA() {
-			return a;
+		public void displayAcc() {
+			for(int i=0;i<acc.size();i++) {
+				System.out.println(acc.get(i));
+			}
 		}
-		public void setA(List<Account> a) {
-			this.a = a;
+
+		@Override
+		public String toString() {
+			return "Client [nom=" + nom + ", prenom=" + prenom + ", cin=" + cin + ", acc=" + acc + "]";
 		}
- 
+
+	
+		
+
+
+	
+		
+		
 	
  
 }

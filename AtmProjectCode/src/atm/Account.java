@@ -1,11 +1,12 @@
 package atm;
 import java.sql.*;
+import java.util.Arrays;
 
 public class Account {
-	private String dateCreation;
+	//private String dateCreation;
 	private float balance;
-	private String accountType;
-	private String accountNumber;
+	private String [] accountType= new String[2];
+	private String [] accountNumber = new String[2];
 	private String cardNumber;
 	private String password;
 	private String nom;
@@ -15,21 +16,23 @@ public class Account {
 	private ResultSet rs = null;
 	private String query = "SELECT * FROM CLIENT";
 	private Connection conn = ConnectDB.getConn();
+	private int k = 0;
 	
 	public Account(String cardNumber) throws SQLException {
 		p = conn.prepareStatement(query);
 		rs = p.executeQuery();
 		this.cardNumber = cardNumber;
 		while(rs.next()) {
-			if(rs.getString(8).equals(cardNumber)) {
+			if(rs.getString(8).equals(cardNumber) && k<2) {
 				balance = rs.getFloat(9);
-				accountType = rs.getString(7);
-				accountNumber = rs.getString(5);
+				accountType[k] = rs.getString(7);
+				accountNumber[k] = rs.getString(5);
 				password = rs.getString(6);
 				cardNumber = rs.getString(8);
 				nom =  rs.getString(2);
 				prenom =  rs.getString(3);
 				cin =  rs.getString(4);
+				k++;
 			}
 	
 		}
@@ -130,39 +133,34 @@ public class Account {
 	public void logout() {
 		System.exit(0);
 	}
-	//affichafe
+	//affichage
+	
 	@Override
-	public String toString() {
-		return "Account [balance=" + balance + ", accountType=" + accountType + ", accountNumber=" + accountNumber
-				+ ", cardNumber=" + cardNumber + ", nom=" + nom + ", prenom=" + prenom + ", cin=" + cin + "]";
-	}
+		public String toString() {
+			return "Account [balance=" + balance + ", accountType=" + Arrays.toString(accountType) + ", accountNumber="
+					+ Arrays.toString(accountNumber) + ", cardNumber=" + cardNumber + ", password=" + password
+					+ ", nom=" + nom + ", prenom=" + prenom + ", cin=" + cin + "]";
+		}
 
-	
-	
-	
-	
-	
-	
+
 	//getters and setters :
 	public float getBalance() {
 		return balance;
 	}
+	
+
+
+
+
 	public void setBalance(float balance) {
 		this.balance = balance;
 	}
-	public String getAccountType() {
-		return accountType;
-	}
 
-	public void setAccountType(String accountType) {
-		this.accountType = accountType;
-	}
-
-	public String getAccountNumber() {
+	public String[] getAccountNumber() {
 		return accountNumber;
 	}
 
-	public void setAccountNumber(String accountNumber) {
+	public void setAccountNumber(String[] accountNumber) {
 		this.accountNumber = accountNumber;
 	}
 
