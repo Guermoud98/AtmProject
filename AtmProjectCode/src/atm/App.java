@@ -20,7 +20,7 @@ public class App {
 		System.out.println("user2: ");
 		Account a2 = new Account("6543210987654321");
 		a2.Login(a2.getCardNumber(),"secure456");
-		//	System.out.println("2: "+a2.toString());
+		//System.out.println("2: "+a2.toString());
 		
 		
 		//list of accounts : new ArrayList<String>();
@@ -30,11 +30,13 @@ public class App {
 	    
 	    Client c = new Client(accounts,"6543210987654321");
 	    System.out.println(c.toString());
+	    
+	    
 	   
 	   
 	  
 	   
-		//a.logout();
+		a.logout();
 
 	}
 

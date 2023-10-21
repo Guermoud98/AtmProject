@@ -15,7 +15,7 @@ public class Account {
 	private PreparedStatement p = null;
 	private ResultSet rs = null;
 	private String query = "SELECT * FROM CLIENT";
-	private Connection conn = ConnectDB.getConn();
+	private Connection conn = SingletonConnection.getInstance();
 	private int k = 0;
 	
 	public Account(String cardNumber) throws SQLException {
